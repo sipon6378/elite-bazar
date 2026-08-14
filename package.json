@@ -4,7 +4,7 @@
   "private": true,
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "npm run init-admin && node server.js",
     "dev": "node --watch server.js",
     "init-admin": "node scripts/init-admin.js"
   },
